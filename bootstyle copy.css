@@ -1,0 +1,34 @@
+
+body,
+html {
+  	width: 100%;
+ 	height: 100%; 
+	background-image: url(backgroundimage1.jpg);
+	background-size: cover;
+}
+
+h1 {
+	color: rgb(0,166,166); 
+	text-align: center;
+	font-family: 'Montserrat', sans-serif; 
+	padding-top: 100px;
+}
+
+hr {
+	max-width: 600px;
+}
+
+.btn-info {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+  	text-transform: uppercase;
+}
+.btn-info:hover {
+	background-color: grey;
+}
+
+.col {
+  padding: 25px;
+  }
